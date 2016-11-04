@@ -23,8 +23,8 @@ public class TransformCapitalChinese {
         let zeroToNineArray = ["零","壹","贰","叁","肆","伍","陆","柒","捌","玖"]
         
         
-        if transferNumInt > 10000000000 {
-            return "大于壹佰亿"
+        if transferNumInt > 1000000000 {
+            return "大于十亿"
         }
         //将一万以内的数转换成中文大写
         func transforZeroToThousandCapital(number:Int)->String {
