@@ -12,6 +12,7 @@
 		D26899F81DCC6B7F001D185A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26899F61DCC6B7F001D185A /* Main.storyboard */; };
 		D26899FA1DCC6B7F001D185A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26899F91DCC6B7F001D185A /* Assets.xcassets */; };
 		D26899FD1DCC6B7F001D185A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26899FB1DCC6B7F001D185A /* LaunchScreen.storyboard */; };
+		D2689A061DCC6BCA001D185A /* TransformCapitalChinese.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2689A051DCC6BCA001D185A /* TransformCapitalChinese.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D26899F91DCC6B7F001D185A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D26899FC1DCC6B7F001D185A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D26899FE1DCC6B7F001D185A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2689A051DCC6BCA001D185A /* TransformCapitalChinese.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformCapitalChinese.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		D26899E61DCC6B7F001D185A = {
 			isa = PBXGroup;
 			children = (
+				D2689A041DCC6B83001D185A /* TransformCapitalChinese */,
 				D26899F11DCC6B7F001D185A /* TransformCapCNDemo */,
 				D26899F01DCC6B7F001D185A /* Products */,
 			);
@@ -62,6 +65,14 @@
 				D26899FE1DCC6B7F001D185A /* Info.plist */,
 			);
 			path = TransformCapCNDemo;
+			sourceTree = "<group>";
+		};
+		D2689A041DCC6B83001D185A /* TransformCapitalChinese */ = {
+			isa = PBXGroup;
+			children = (
+				D2689A051DCC6BCA001D185A /* TransformCapitalChinese.swift */,
+			);
+			name = TransformCapitalChinese;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2689A061DCC6BCA001D185A /* TransformCapitalChinese.swift in Sources */,
 				D26899F51DCC6B7F001D185A /* ViewController.swift in Sources */,
 				D26899F31DCC6B7F001D185A /* AppDelegate.swift in Sources */,
 			);
